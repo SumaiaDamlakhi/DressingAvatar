@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_3.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\bottom_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_camera.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\circle_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_eye.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\eye.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_2.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\top_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transperent_pose.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\transperent_pose.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_1.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\bottom_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_5.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\top_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refresh.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gallery.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\gallery.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_3.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\top_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_4.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\top_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_2.png.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\drawable\\bottom_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Somaia\\Desktop\\PoseDetection-MLKit-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

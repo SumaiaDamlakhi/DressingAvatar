@@ -1,0 +1,13 @@
+com/icanerdogan/posedetection/Singleton.java
+ com.icanerdogan.posedetection.Singleton
+com/icanerdogan/posedetection/MainActivity2.java
+ com.icanerdogan.posedetection.MainActivity2
+com/icanerdogan/posedetection/BuildConfig.java
+ com.icanerdogan.posedetection.BuildConfig
+com/icanerdogan/posedetection/CanvasFigureDraw.java
+ com.icanerdogan.posedetection.CanvasFigureDraw
+com/icanerdogan/posedetection/MainActivity.java
+ com.icanerdogan.posedetection.MainActivity
+ com.icanerdogan.posedetection.MainActivity$1
+ com.icanerdogan.posedetection.MainActivity$2
+ com.icanerdogan.posedetection.MainActivity$3

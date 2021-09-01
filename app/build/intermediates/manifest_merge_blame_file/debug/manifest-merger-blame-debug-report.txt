@@ -1,0 +1,257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.icanerdogan.posedetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:10:5-81
+11-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:10:22-78
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:11:5-65
+12-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:11:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:12:5-71
+13-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:12:22-68
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:14:5-60
+15-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:14:19-57
+16    <uses-feature
+16-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:15:5-17:36
+17        android:name="android.hardware.camera.autofocus"
+17-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:16:9-57
+18        android:required="false" />
+18-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:17:9-33
+19    <uses-feature
+19-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:18:5-20:36
+20        android:name="android.hardware.camera.front"
+20-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:19:9-53
+21        android:required="false" />
+21-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:20:9-33
+22    <uses-feature
+22-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:21:5-23:36
+23        android:name="android.hardware.microphone"
+23-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:22:9-51
+24        android:required="false" />
+24-->[com.wonderkiln:camerakit:0.13.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\80c6fb0a3b3b7cbe5045beb738b80f65\jetified-camerakit-0.13.2\AndroidManifest.xml:23:9-33
+25
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+27    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:25:5-79
+28-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:26:5-67
+29-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:26:22-64
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:5:5-20:19
+34        android:allowBackup="true"
+34-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:6:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.3.1] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\cdfea8f3da9d3d8e26bbb73a40c2de98\core-1.3.1\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@drawable/bottom_1"
+38-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:7:9-42
+39        android:label="@string/app_name"
+39-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:8:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:9:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:10:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.PoseDetection" >
+43-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:11:9-51
+44        <activity android:name="com.icanerdogan.posedetection.MainActivity2" />
+44-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:12:9-60
+44-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:12:19-48
+45        <activity android:name="com.icanerdogan.posedetection.MainActivity" >
+45-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:13:9-19:20
+45-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:13:19-47
+46            <intent-filter>
+46-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:14:13-18:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:15:17-69
+47-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:15:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:17:17-77
+49-->C:\Users\Somaia\Desktop\PoseDetection-MLKit-master\app\src\main\AndroidManifest.xml:17:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->[com.google.mlkit:pose-detection-common:17.0.1-beta1] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b757d06581cb9e25e3e6201b5364bb37\jetified-pose-detection-common-17.0.1-beta1\AndroidManifest.xml:8:9-14:19
+54            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+54-->[com.google.mlkit:pose-detection-common:17.0.1-beta1] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b757d06581cb9e25e3e6201b5364bb37\jetified-pose-detection-common-17.0.1-beta1\AndroidManifest.xml:9:13-91
+55            android:directBootAware="true"
+55-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:17:13-43
+56            android:exported="false" >
+56-->[com.google.mlkit:pose-detection-common:17.0.1-beta1] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b757d06581cb9e25e3e6201b5364bb37\jetified-pose-detection-common-17.0.1-beta1\AndroidManifest.xml:10:13-37
+57            <meta-data
+57-->[com.google.mlkit:pose-detection-common:17.0.1-beta1] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b757d06581cb9e25e3e6201b5364bb37\jetified-pose-detection-common-17.0.1-beta1\AndroidManifest.xml:11:13-13:85
+58                android:name="com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar"
+58-->[com.google.mlkit:pose-detection-common:17.0.1-beta1] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b757d06581cb9e25e3e6201b5364bb37\jetified-pose-detection-common-17.0.1-beta1\AndroidManifest.xml:12:17-114
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.mlkit:pose-detection-common:17.0.1-beta1] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b757d06581cb9e25e3e6201b5364bb37\jetified-pose-detection-common-17.0.1-beta1\AndroidManifest.xml:13:17-82
+60            <meta-data
+60-->[com.google.mlkit:vision-common:16.2.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\31de7c1df905a37a7fee6546c22062a6\jetified-vision-common-16.2.0\AndroidManifest.xml:12:13-14:85
+61                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+61-->[com.google.mlkit:vision-common:16.2.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\31de7c1df905a37a7fee6546c22062a6\jetified-vision-common-16.2.0\AndroidManifest.xml:13:17-124
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.mlkit:vision-common:16.2.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\31de7c1df905a37a7fee6546c22062a6\jetified-vision-common-16.2.0\AndroidManifest.xml:14:17-82
+63            <meta-data
+63-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:20:13-22:85
+64                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+64-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:21:17-120
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:22:17-82
+66        </service>
+67
+68        <provider
+68-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:9:9-13:38
+69            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+69-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:10:13-78
+70            android:authorities="com.icanerdogan.posedetection.mlkitinitprovider"
+70-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:11:13-69
+71            android:exported="false"
+71-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:12:13-37
+72            android:initOrder="99" />
+72-->[com.google.mlkit:common:17.1.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\c64318ef9702c5cd5ea977ca2406c75b\jetified-common-17.1.0\AndroidManifest.xml:13:13-35
+73
+74        <service
+74-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:29:9-35:19
+75            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+75-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:30:13-103
+76            android:exported="false" >
+76-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:31:13-37
+77            <meta-data
+77-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:32:13-34:39
+78                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+78-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:33:17-94
+79                android:value="cct" />
+79-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9f3f32dfed3a9b64e6e06ba16535d173\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:34:17-36
+80        </service>
+81        <service
+81-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:27:9-33:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:28:13-84
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+84            android:exported="false" >
+84-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:29:13-37
+85            <meta-data
+85-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+86-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9001e637591bf99550f9534257e99161\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b7c07682c91341ab849188c1424f6c29\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+89                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+89-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b7c07682c91341ab849188c1424f6c29\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b7c07682c91341ab849188c1424f6c29\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+91            <!--
+92                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+93                clients to use it as well, by defining this registrar in their own core/common library.
+94            -->
+95            <meta-data
+95-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+96                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+96-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+98        </service>
+99
+100        <provider
+100-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+101            android:name="com.google.firebase.provider.FirebaseInitProvider"
+101-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+102            android:authorities="com.icanerdogan.posedetection.firebaseinitprovider"
+102-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+104            android:exported="false"
+104-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+105            android:initOrder="100" />
+105-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\bc7100dec5a03f13b099d787b43ee47f\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\bc7100dec5a03f13b099d787b43ee47f\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\bc7100dec5a03f13b099d787b43ee47f\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\bc7100dec5a03f13b099d787b43ee47f\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+111
+112        <receiver
+112-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+113            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+113-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+115            android:exported="false" >
+115-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+116        </receiver>
+117
+118        <service
+118-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+119            android:name="com.google.android.gms.measurement.AppMeasurementService"
+119-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+121            android:exported="false" />
+121-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+122        <service
+122-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+123            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+123-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b0e50fef29c07342145cd451d702ab1f\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b0e50fef29c07342145cd451d702ab1f\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\b0e50fef29c07342145cd451d702ab1f\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+131
+132        <service
+132-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+133            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+133-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+134            android:exported="false"
+134-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" >
+135-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+136        </service>
+137
+138        <receiver
+138-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+139            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+139-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+140            android:exported="false" />
+140-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Somaia\.gradle\caches\transforms-2\files-2.1\9002599e10da2171872698920b4e271f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+141    </application>
+142
+143</manifest>
